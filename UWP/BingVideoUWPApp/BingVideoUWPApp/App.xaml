@@ -1,0 +1,50 @@
+﻿<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:BingVideoUWPApp"
+             xmlns:BingVideoLibrary="using:BingVideoLibrary"
+             x:Class="BingVideoUWPApp.App"
+             RequestedTheme="Dark">
+
+  <Application.Resources>
+    <Style TargetType="Button">
+      <Setter Property="Background"
+              Value="Transparent" />
+    </Style>
+    <Style x:Key="titleStyle"
+           TargetType="TextBlock"
+           BasedOn="{StaticResource SubtitleTextBlockStyle}">
+      <Setter Property="Margin"
+              Value="5,0,0,0" />
+      <Setter Property="HorizontalAlignment"
+              Value="Left" />
+      <Setter Property="FontFamily"
+              Value="Segoe WP SemiLight" />
+      <Setter Property="FontSize"
+              Value="26.667" />
+      <Setter Property="TextWrapping"
+              Value="NoWrap" />
+      <Setter Property="TextTrimming"
+              Value="CharacterEllipsis" />
+    </Style>
+    <!-- you need to add your API key for Bing search here 
+         and I'm not sure whether the user name matters
+    -->
+    <BingVideoLibrary:ViewModelLocator x:Key="viewModelLocator" 
+                                       ApiKey="+FUbVzbJsTWT2S9+3fSR9zc1uA5Q7G3Z9XkcbPu8nAY="
+                                       ApiUser="theUser"/>
+    <BingVideoLibrary:NavigationService x:Key="navigationService">
+      <BingVideoLibrary:NavigationService.Routes>
+        <BingVideoLibrary:NavigationRoute AssemblyName="BingVideoUWPApp"
+                                          NavigationPath="videos"
+                                          PageTypeName="BingVideoUWPApp.VideosPage" />
+        <BingVideoLibrary:NavigationRoute AssemblyName="BingVideoUWPApp"
+                                          NavigationPath="video"
+                                          PageTypeName="BingVideoUWPApp.VideoPage" />
+      </BingVideoLibrary:NavigationService.Routes>
+    </BingVideoLibrary:NavigationService>
+    <BingVideoLibrary:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+    <BingVideoLibrary:CategoryToGlyphConverter x:Key="CategoryToGlyphConverter" />
+
+  </Application.Resources>
+
+</Application>

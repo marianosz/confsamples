@@ -1,0 +1,6 @@
+C:\Users\sanch\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\sanch\FixEmptyCatch.Vsix\1.0\\FixEmptyCatch.dll
+C:\Users\sanch\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\sanch\FixEmptyCatch.Vsix\1.0\\extension.vsixmanifest
+C:\Users\sanch\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\sanch\FixEmptyCatch.Vsix\1.0\\Diagnostic.nuspec
+C:\Users\sanch\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\sanch\FixEmptyCatch.Vsix\1.0\\tools\install.ps1
+C:\Users\sanch\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\sanch\FixEmptyCatch.Vsix\1.0\\tools\uninstall.ps1
+C:\Users\sanch\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\sanch\FixEmptyCatch.Vsix\1.0\\FixEmptyCatch.pdb

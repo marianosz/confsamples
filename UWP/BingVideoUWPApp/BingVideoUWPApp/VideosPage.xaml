@@ -1,0 +1,155 @@
+﻿<Page xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:BingVideoUWPApp"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:BingVideoLibrary="using:BingVideoLibrary"
+      x:Class="BingVideoUWPApp.VideosPage"
+      mc:Ignorable="d">
+
+
+  <Page.DataContext>
+    <Binding Mode="OneWay"
+             Path="VideosViewModel"
+             Source="{StaticResource viewModelLocator}" />
+  </Page.DataContext>
+
+  <Page.BottomAppBar>
+    <CommandBar>
+      <AppBarButton Icon="Download"
+                    Label="Load More Videos"
+                    Command="{Binding LoadMoreCommand, Mode=OneWay}" />
+    </CommandBar>
+  </Page.BottomAppBar>
+  <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <VisualStateManager.VisualStateGroups>
+      <VisualStateGroup x:Name="VisualStateGroup">
+        <VisualState x:Name="narrow">
+          <VisualState.StateTriggers>
+            <AdaptiveTrigger MinWindowWidth="0" />
+          </VisualState.StateTriggers>
+          <VisualState.Setters>
+            <Setter Value="Visible"
+                    Target="listView.Visibility" />
+            <Setter Value="Collapsed"
+                    Target="gridView.Visibility" />
+          </VisualState.Setters>
+        </VisualState>
+        <VisualState x:Name="wide">
+          <VisualState.StateTriggers>
+            <AdaptiveTrigger MinWindowWidth="720" />
+          </VisualState.StateTriggers>
+          <VisualState.Setters>
+            <Setter Value="Collapsed"
+                    Target="listView.Visibility" />
+            <Setter Value="Visible"
+                    Target="gridView.Visibility" />
+          </VisualState.Setters>
+        </VisualState>
+      </VisualStateGroup>
+    </VisualStateManager.VisualStateGroups>
+
+
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+    <TextBlock Text="{Binding Category}"
+               Style="{StaticResource titleStyle}" />
+
+    <ProgressBar Grid.Row="1"
+                 IsIndeterminate="true"
+                 Foreground="White"
+                 Visibility="{Binding IsBusy, Converter={StaticResource BoolToVisibilityConverter}, Mode=OneWay}" />
+
+    <GridView Grid.Row="2"
+              Margin="5"
+              x:Name="gridView"
+              ItemsSource="{Binding Videos}">
+      <GridView.ItemTemplate>
+        <DataTemplate>
+          <Button Template="{x:Null}"
+                  Margin="0,10,10,0">
+            <Button.Command>
+              <BingVideoLibrary:NavigationCommand Page="video"
+                                                  Parameter="{Binding}" />
+            </Button.Command>
+
+            <Border Height="180"
+                    Width="320"
+                    BorderBrush="#FFB9B9B9"
+                    BorderThickness="1">
+              <Grid Margin="2">
+                <Grid.RowDefinitions>
+                  <RowDefinition />
+                  <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image Stretch="UniformToFill"
+                       Grid.RowSpan="2"
+                       Source="{Binding VideoDetails.Thumbnail.MediaUrl}" />
+                <Rectangle Fill="#66000000"
+                           Grid.Row="1" />
+                <TextBlock Grid.Row="1"
+                           Foreground="#FFD9D9D9"
+                           TextTrimming="CharacterEllipsis"
+                           FontSize="13.333"
+                           VerticalAlignment="Bottom"
+                           HorizontalAlignment="Right"
+                           Text="{Binding VideoDetails.Title}" />
+              </Grid>
+            </Border>
+          </Button>
+        </DataTemplate>
+      </GridView.ItemTemplate>
+    </GridView>
+
+    <ListView Grid.Row="2"
+              Margin="5"
+              x:Name="listView"
+              ItemsSource="{Binding Videos}"
+              Visibility="Collapsed">
+      <ListView.ItemContainerStyle>
+        <Style TargetType="ListViewItem">
+          <Setter Property="HorizontalContentAlignment"
+                  Value="Stretch" />
+        </Style>
+      </ListView.ItemContainerStyle>
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <Button Template="{x:Null}"
+                  Margin="0,10,10,0">
+            <Button.Command>
+              <BingVideoLibrary:NavigationCommand Page="video"
+                                                  Parameter="{Binding}" />
+            </Button.Command>
+
+            <Border BorderBrush="#FFB9B9B9"
+                    BorderThickness="1">
+              <Grid Margin="2">
+                <Grid.RowDefinitions>
+                  <RowDefinition />
+                  <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image Stretch="UniformToFill"
+                       Grid.RowSpan="2"
+                       Source="{Binding VideoDetails.Thumbnail.MediaUrl}" />
+                <Rectangle Fill="#66000000"
+                           Grid.Row="1" />
+                <TextBlock Grid.Row="1"
+                           Foreground="#FFD9D9D9"
+                           TextTrimming="CharacterEllipsis"
+                           FontSize="13.333"
+                           VerticalAlignment="Bottom"
+                           HorizontalAlignment="Right"
+                           Text="{Binding VideoDetails.Title}" />
+              </Grid>
+            </Border>
+          </Button>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </Grid>
+</Page>

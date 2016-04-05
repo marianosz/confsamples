@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="ContosoCookbookUniversal.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ContosoCookbookUniversal"
+    RequestedTheme="Light">
+</Application>

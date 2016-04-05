@@ -1,0 +1,114 @@
+﻿<Page xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:BingVideoUWPApp"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:BingVideoLibrary="using:BingVideoLibrary"
+      x:Class="BingVideoUWPApp.MainPage"
+      mc:Ignorable="d"
+      DataContext="{Binding NavigationViewModel, Mode=OneWay, Source={StaticResource viewModelLocator}}">
+
+
+  <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+    <VisualStateManager.VisualStateGroups>
+      <VisualStateGroup x:Name="MyGroup">
+        <VisualState x:Name="narrow">
+          <VisualState.StateTriggers>
+            <AdaptiveTrigger MinWindowWidth="0" />
+          </VisualState.StateTriggers>
+          <VisualState.Setters>
+            <Setter Target="splitView.DisplayMode"
+                    Value="CompactOverlay" />
+          </VisualState.Setters>
+        </VisualState>
+        <VisualState x:Name="wide">
+          <VisualState.StateTriggers>
+            <AdaptiveTrigger MinWindowWidth="720" />
+          </VisualState.StateTriggers>
+          <VisualState.Setters>
+            <Setter Target="splitView.DisplayMode"
+                    Value="CompactInline" />
+          </VisualState.Setters>
+        </VisualState>
+      </VisualStateGroup>
+    </VisualStateManager.VisualStateGroups>
+    
+    <SplitView x:Name="splitView"
+               PanePlacement="Left"
+               DisplayMode="CompactInline"
+               CompactPaneLength="40"
+               OpenPaneLength="220"
+               IsPaneOpen="{Binding ShowPane, Mode=TwoWay}">
+      <SplitView.Pane>
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+          </Grid.RowDefinitions>
+          
+          <Button Command="{Binding GoBackCommand, Mode=OneWay, Source={StaticResource navigationService}}"
+                  IsEnabled="{Binding CanGoBack, Mode=OneWay, Source={StaticResource navigationService}}"
+                  Visibility="{Binding NeedsBackButton, Converter={StaticResource BoolToVisibilityConverter}, Mode=OneWay}">
+            <SymbolIcon Symbol="Back" />
+          </Button>
+          <Button Grid.Row="1"
+                  Command="{Binding ShowPaneCommand, Mode=OneWay}">
+            <FontIcon Glyph="" />
+          </Button>
+
+          <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="Auto" />
+              <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <AutoSuggestBox x:Name="searchBox"
+                            Width="160"
+                            Visibility="{Binding ShowPane, Converter={StaticResource BoolToVisibilityConverter}}" />
+            <Button Grid.Column="1">
+              <SymbolIcon Symbol="Find" />
+              <Button.Command>
+                <BingVideoLibrary:NavigationCommand Page="videos"
+                                                    Parameter="{Binding ElementName=searchBox,Path=Text}" />
+              </Button.Command>
+            </Button>
+          </Grid>
+          <ItemsControl Grid.Row="3"
+                        ItemsSource="{Binding NavigationItems, Mode=OneWay}">
+            <ItemsControl.ItemTemplate>
+              <DataTemplate>
+                <Button HorizontalAlignment="Stretch"
+                        HorizontalContentAlignment="Left">
+                  <Button.Command>
+                    <BingVideoLibrary:NavigationCommand Page="videos"
+                                                        Parameter="{Binding Category}" />
+                  </Button.Command>
+                  <Grid>
+                    <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="Auto" />
+                      <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                      <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <FontIcon Glyph="{Binding Category, Converter={StaticResource CategoryToGlyphConverter}}" />
+
+                    <TextBlock Margin="15,0,0,0"
+                               Grid.Column="1" 
+                               Text="{Binding Category}"/>
+                  </Grid>
+                </Button>
+              </DataTemplate>
+            </ItemsControl.ItemTemplate>
+          </ItemsControl>
+
+        </Grid>
+      </SplitView.Pane>
+      <Frame BingVideoLibrary:NavigationService.ServiceInstance="{StaticResource navigationService}" />
+    </SplitView>
+  </Grid>
+</Page>

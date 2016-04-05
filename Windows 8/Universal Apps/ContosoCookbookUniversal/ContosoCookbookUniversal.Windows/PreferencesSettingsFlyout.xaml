@@ -1,0 +1,28 @@
+﻿<SettingsFlyout
+    x:Class="ContosoCookbookUniversal.PreferencesSettingsFlyout"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ContosoCookbookUniversal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    IconSource="Assets/SmallLogo.png"
+    Title="Preferences"
+    d:DesignWidth="346"
+    HeaderBackground="#C33D27">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+
+        <!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Text="Contoso Cookbook can load recipe data locally from in-package resources, or remotely from Azure. The latter requires an Internet connection." Margin="0,0,0,25" TextWrapping="Wrap" />
+            <ToggleSwitch x:Name="DataSwitch" OffContent="Use Local Data Source" OnContent="Use Remote Data Source" Toggled="OnToggleSwitchToggled" />
+        </StackPanel>
+
+        <!-- Define more Content Sections below as necessary -->
+
+    </StackPanel>
+</SettingsFlyout>

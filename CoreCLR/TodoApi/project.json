@@ -1,0 +1,18 @@
+﻿﻿{
+    "dependencies": {
+        "Microsoft.AspNet.Server.Kestrel": "1.0.0-*",
+        "Microsoft.AspNet.Diagnostics": "1.0.0-*",
+        "Microsoft.AspNet.Mvc": "6.0.0-*",
+        "EntityFramework.Core": "7.0.0-*",
+        "EntityFramework.MicrosoftSqlServer": "7.0.0-*",
+        "EntityFramework.Commands": "7.0.0-*",
+        "System.Net.Security": "4.0.0-*"
+    },
+    "commands": {
+        "web": "Microsoft.AspNet.Server.Kestrel --server.urls http://*:5003"
+    },
+    "frameworks": {
+        "dnx451": { },
+        "dnxcore50": { }
+    }
+}

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MovieIndex.Models.Movie>
+
+@{
+    ViewBag.Title = "Movies";
+}
+
+<div>
+    @Html.Label("Search by name:")
+    @Html.TextBox("textBoxSearchByName") <input id="buttonSearch" type="button" value="Search"/>
+</div>
+
+<div id="divMovieList">
+    @Html.Partial("List", Model)
+</div>
+
+@section Scripts {
+    <script src="../Scripts/jquery.signalR-1.0.1.js"></script>
+    <script src="~/signalr/hubs" type="text/javascript"></script> 
+
+    <script type="text/javascript">
+        $(function () {
+            var movie = $.connection.movieIndex;
+
+            movie.client.changeMovieIndex = function (message) { renderList(); };
+
+            $.connection.hub.start();
+        });
+
+        $(document).ready(function () {
+            $("#buttonSearch").click(function () { renderList(); });
+        });
+
+        function renderList() {
+            var name = $("#textBoxSearchByName").val();
+            $('#divMovieList').load('@Url.Action("List", new { name = "_name_" })'.replace('_name_', name));
+        }
+    </script>
+}

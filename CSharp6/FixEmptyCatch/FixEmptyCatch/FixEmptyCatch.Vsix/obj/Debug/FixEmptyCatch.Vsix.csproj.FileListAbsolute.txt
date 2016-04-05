@@ -1,0 +1,11 @@
+C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch.Vsix\bin\Debug\Diagnostic.nuspec
+C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch.Vsix\bin\Debug\tools\install.ps1
+C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch.Vsix\bin\Debug\tools\uninstall.ps1
+C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch.Vsix\bin\Debug\FixEmptyCatch.vsix
+C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch.Vsix\bin\Debug\extension.vsixmanifest
+C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch.Vsix\bin\Debug\FixEmptyCatch.dll
+C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch.Vsix\bin\Debug\FixEmptyCatch.pdb
+C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch.Vsix\obj\Debug\FixEmptyCatch.Vsix.csprojResolveAssemblyReference.cache
+C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch.Vsix\obj\Debug\FixEmptyCatch.dll
+C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch.Vsix\obj\Debug\FixEmptyCatch.pdb
+C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch.Vsix\obj\Debug\extension.vsixmanifest

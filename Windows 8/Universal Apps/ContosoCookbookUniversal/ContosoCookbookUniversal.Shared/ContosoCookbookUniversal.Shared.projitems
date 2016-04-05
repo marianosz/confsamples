@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>4bde4ddb-6a86-4720-a67e-c6bf7e9125e2</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ContosoCookbookUniversal</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ListConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ShareManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\UppercaseConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\RecipeDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\SampleDataSource.cs" />
+    <Content Include="$(MSBuildThisFileDirectory)DataModel\RecipeData.json" />
+    <Content Include="$(MSBuildThisFileDirectory)DataModel\SampleData.json" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\LightGray.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\MediumGray.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\DarkGray.png" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\RelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ObservableDictionary.cs" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_1_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_1_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_2_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_2_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_3_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_3_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_4_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_4_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_5_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_5_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_6_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_6_310_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\Chinese_6_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\chinese_group.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\chinese_group_detail.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\chinese\chinese_group_header.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_1_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_1_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_2_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_2_310_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_2_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_3_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_3_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_4_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_4_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_5_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_5_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_6_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\French_6_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\french_group.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\french_group_detail.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\french\french_group_header.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_1_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_1_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_2_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_2_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_3_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_3_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_4_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_4_310_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_4_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_5_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_5_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_6_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\German_6_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\german_group.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\german_group_detail.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\german\german_group_header.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\Indian_1_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\Indian_1_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\Indian_2_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\Indian_2_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\Indian_3_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\Indian_3_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\Indian_4_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\Indian_4_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\Indian_5_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\Indian_5_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\Indian_6_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\Indian_6_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\indian_group.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\indian_group_detail.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\indian\indian_group_header.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_1_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_1_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_2_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_2_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_3_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_3_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_4_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_4_310_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_4_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_5_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_5_310_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_5_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_6_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\Italian_6_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\italian_group.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\italian_group_detail.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\italian\italian_group_header.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\Mexican_1_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\Mexican_1_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\Mexican_2_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\Mexican_2_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\Mexican_3_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\Mexican_3_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\Mexican_4_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\Mexican_4_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\Mexican_5_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\Mexican_5_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\Mexican_6_150_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\Mexican_6_600_C.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\mexican_group.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\mexican_group_detail.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\mexican\mexican_group_header.png" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-US\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Images\chinese\Thumbs.db" />
+    <None Include="$(MSBuildThisFileDirectory)Images\french\Thumbs.db" />
+    <None Include="$(MSBuildThisFileDirectory)Images\german\Thumbs.db" />
+    <None Include="$(MSBuildThisFileDirectory)Images\indian\Thumbs.db" />
+    <None Include="$(MSBuildThisFileDirectory)Images\italian\Thumbs.db" />
+  </ItemGroup>
+</Project>
