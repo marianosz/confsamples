@@ -1,9 +1,0 @@
-C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch\bin\Debug\Diagnostic.nuspec
-C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch\bin\Debug\tools\install.ps1
-C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch\bin\Debug\tools\uninstall.ps1
-C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch\bin\Debug\FixEmptyCatch.dll
-C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch\bin\Debug\FixEmptyCatch.pdb
-C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch\obj\Debug\FixEmptyCatch.Resources.resources
-C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch\obj\Debug\FixEmptyCatch.csproj.GenerateResource.Cache
-C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch\obj\Debug\FixEmptyCatch.dll
-C:\Users\sanch\OneDrive\Charlas\NetConfUY15\FixEmptyCatch\FixEmptyCatch\FixEmptyCatch\obj\Debug\FixEmptyCatch.pdb

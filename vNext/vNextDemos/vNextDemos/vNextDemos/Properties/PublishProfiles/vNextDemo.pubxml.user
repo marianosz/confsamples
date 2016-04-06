@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\vNext</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="packages/Common.1.0.0/Common.1.0.0.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Common.1.0.0/Common.1.0.0.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Common.1.0.0/Common.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Common.1.0.0/lib/K10/Common.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Common.1.0.0/lib/net45/Common.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Common.1.0.0/shared/NotNullArgument.cs">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Common.1.0.0/shared/PlatformHelper.cs">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Common.1.0.0/shared/TypeExtensions.cs">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Helios.0.1-alpha-build-0585/Helios.0.1-alpha-build-0585.nupkg">
+      <publishTime>06/23/2014 16:04:11</publishTime>
+    </File>
+    <File Include="packages/Helios.0.1-alpha-build-0585/Helios.0.1-alpha-build-0585.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:11</publishTime>
+    </File>
+    <File Include="packages/Helios.0.1-alpha-build-0585/Helios.nuspec">
+      <publishTime>06/23/2014 16:04:11</publishTime>
+    </File>
+    <File Include="packages/Ix-Async.1.2.2/Ix-Async.1.2.2.nupkg">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Ix-Async.1.2.2/Ix-Async.1.2.2.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Ix-Async.1.2.2/Ix-Async.nuspec">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Ix-Async.1.2.2/lib/net40/System.Interactive.Async.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Ix-Async.1.2.2/lib/net40/System.Interactive.Async.XML">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Ix-Async.1.2.2/lib/net45/System.Interactive.Async.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Ix-Async.1.2.2/lib/net45/System.Interactive.Async.XML">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Ix-Async.1.2.2/lib/portable-windows8+net45+wp8/System.Interactive.Async.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Ix-Async.1.2.2/lib/portable-windows8+net45+wp8/System.Interactive.Async.XML">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/K.Roslyn.0.1-alpha-build-0137/K.Roslyn.0.1-alpha-build-0137.nupkg">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/K.Roslyn.0.1-alpha-build-0137/K.Roslyn.0.1-alpha-build-0137.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/K.Roslyn.0.1-alpha-build-0137/K.Roslyn.nuspec">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/k-build.cmd">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/k-crossgen.cmd">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/k.cmd">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/klr.cmd">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/klr.exe">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/klr.host.dll">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/klr.net45.config">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/klr.net45.dll">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/klr.net45.managed.dll">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/kpm.cmd">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/lib/Microsoft.Framework.DesignTimeHost/Microsoft.Framework.DesignTimeHost.dll">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/lib/Microsoft.Framework.PackageManager/Microsoft.Framework.PackageManager.dll">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/lib/Microsoft.Framework.Project/Microsoft.Framework.Project.dll">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/Microsoft.Framework.ApplicationHost.dll">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/Microsoft.Framework.Runtime.dll">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/Microsoft.Framework.Runtime.Roslyn.dll">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/Newtonsoft.Json.dll">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/System.Collections.Immutable.dll">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/bin/System.Reflection.Metadata.dll">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/kre-svr50-x86.0.1-alpha-build-0446.nupkg">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/kre-svr50-x86.0.1-alpha-build-0446.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="packages/kre-svr50-x86.0.1-alpha-build-0446/KRE-svr50-x86.nuspec">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.FeatureModel.0.1-alpha-build-0444/lib/K10/Microsoft.AspNet.FeatureModel.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.FeatureModel.0.1-alpha-build-0444/lib/net45/Microsoft.AspNet.FeatureModel.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.FeatureModel.0.1-alpha-build-0444/Microsoft.AspNet.FeatureModel.0.1-alpha-build-0444.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.FeatureModel.0.1-alpha-build-0444/Microsoft.AspNet.FeatureModel.0.1-alpha-build-0444.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.FeatureModel.0.1-alpha-build-0444/Microsoft.AspNet.FeatureModel.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.FileSystems.0.1-alpha-build-0162/lib/K10/Microsoft.AspNet.FileSystems.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.FileSystems.0.1-alpha-build-0162/lib/net45/Microsoft.AspNet.FileSystems.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.FileSystems.0.1-alpha-build-0162/Microsoft.AspNet.FileSystems.0.1-alpha-build-0162.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.FileSystems.0.1-alpha-build-0162/Microsoft.AspNet.FileSystems.0.1-alpha-build-0162.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.FileSystems.0.1-alpha-build-0162/Microsoft.AspNet.FileSystems.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Hosting.0.1-alpha-build-0572/lib/K10/Microsoft.AspNet.Hosting.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Hosting.0.1-alpha-build-0572/lib/net45/Microsoft.AspNet.Hosting.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Hosting.0.1-alpha-build-0572/Microsoft.AspNet.Hosting.0.1-alpha-build-0572.nupkg">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Hosting.0.1-alpha-build-0572/Microsoft.AspNet.Hosting.0.1-alpha-build-0572.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Hosting.0.1-alpha-build-0572/Microsoft.AspNet.Hosting.nuspec">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Http.0.1-alpha-build-0444/lib/K10/Microsoft.AspNet.Http.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Http.0.1-alpha-build-0444/lib/net45/Microsoft.AspNet.Http.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Http.0.1-alpha-build-0444/Microsoft.AspNet.Http.0.1-alpha-build-0444.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Http.0.1-alpha-build-0444/Microsoft.AspNet.Http.0.1-alpha-build-0444.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Http.0.1-alpha-build-0444/Microsoft.AspNet.Http.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.HttpFeature.0.1-alpha-build-0444/lib/K10/Microsoft.AspNet.HttpFeature.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.HttpFeature.0.1-alpha-build-0444/lib/net45/Microsoft.AspNet.HttpFeature.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.HttpFeature.0.1-alpha-build-0444/Microsoft.AspNet.HttpFeature.0.1-alpha-build-0444.nupkg">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.HttpFeature.0.1-alpha-build-0444/Microsoft.AspNet.HttpFeature.0.1-alpha-build-0444.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.HttpFeature.0.1-alpha-build-0444/Microsoft.AspNet.HttpFeature.nuspec">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Loader.IIS.0.1-alpha-build-0585/lib/K10/Microsoft.AspNet.Loader.IIS.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Loader.IIS.0.1-alpha-build-0585/lib/net45/Microsoft.AspNet.Loader.IIS.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Loader.IIS.0.1-alpha-build-0585/Microsoft.AspNet.Loader.IIS.0.1-alpha-build-0585.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Loader.IIS.0.1-alpha-build-0585/Microsoft.AspNet.Loader.IIS.0.1-alpha-build-0585.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Loader.IIS.0.1-alpha-build-0585/Microsoft.AspNet.Loader.IIS.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Loader.IIS.Interop.0.1-alpha-build-0585/InteropAssemblies/amd64/Microsoft.AspNet.Loader.IIS.Interop.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Loader.IIS.Interop.0.1-alpha-build-0585/InteropAssemblies/x86/Microsoft.AspNet.Loader.IIS.Interop.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Loader.IIS.Interop.0.1-alpha-build-0585/Microsoft.AspNet.Loader.IIS.Interop.0.1-alpha-build-0585.nupkg">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Loader.IIS.Interop.0.1-alpha-build-0585/Microsoft.AspNet.Loader.IIS.Interop.0.1-alpha-build-0585.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Loader.IIS.Interop.0.1-alpha-build-0585/Microsoft.AspNet.Loader.IIS.Interop.nuspec">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Loader.IIS.Interop.0.1-alpha-build-0585/tools/AspNet.Loader.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.0.1-alpha-build-1268/lib/K10/Microsoft.AspNet.Mvc.dll">
+      <publishTime>06/23/2014 16:04:11</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.0.1-alpha-build-1268/lib/net45/Microsoft.AspNet.Mvc.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.0.1-alpha-build-1268.nupkg">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.0.1-alpha-build-1268.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.nuspec">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Core.0.1-alpha-build-1268/lib/K10/Microsoft.AspNet.Mvc.Core.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Core.0.1-alpha-build-1268/lib/net45/Microsoft.AspNet.Mvc.Core.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Core.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.Core.0.1-alpha-build-1268.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Core.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.Core.0.1-alpha-build-1268.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Core.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.Core.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.ModelBinding.0.1-alpha-build-1268/lib/K10/Microsoft.AspNet.Mvc.ModelBinding.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.ModelBinding.0.1-alpha-build-1268/lib/net45/Microsoft.AspNet.Mvc.ModelBinding.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.ModelBinding.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.ModelBinding.0.1-alpha-build-1268.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.ModelBinding.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.ModelBinding.0.1-alpha-build-1268.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.ModelBinding.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.ModelBinding.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Razor.0.1-alpha-build-1268/lib/K10/Microsoft.AspNet.Mvc.Razor.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Razor.0.1-alpha-build-1268/lib/net45/Microsoft.AspNet.Mvc.Razor.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Razor.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.Razor.0.1-alpha-build-1268.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Razor.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.Razor.0.1-alpha-build-1268.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Razor.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.Razor.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Razor.Host.0.1-alpha-build-1268/lib/K10/Microsoft.AspNet.Mvc.Razor.Host.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Razor.Host.0.1-alpha-build-1268/lib/net45/Microsoft.AspNet.Mvc.Razor.Host.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Razor.Host.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.Razor.Host.0.1-alpha-build-1268.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Razor.Host.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.Razor.Host.0.1-alpha-build-1268.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Mvc.Razor.Host.0.1-alpha-build-1268/Microsoft.AspNet.Mvc.Razor.Host.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.PipelineCore.0.1-alpha-build-0444/lib/K10/Microsoft.AspNet.PipelineCore.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.PipelineCore.0.1-alpha-build-0444/lib/net45/Microsoft.AspNet.PipelineCore.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.PipelineCore.0.1-alpha-build-0444/Microsoft.AspNet.PipelineCore.0.1-alpha-build-0444.nupkg">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.PipelineCore.0.1-alpha-build-0444/Microsoft.AspNet.PipelineCore.0.1-alpha-build-0444.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.PipelineCore.0.1-alpha-build-0444/Microsoft.AspNet.PipelineCore.nuspec">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Razor.0.1-alpha-build-0197/lib/K10/Microsoft.AspNet.Razor.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Razor.0.1-alpha-build-0197/lib/net45/Microsoft.AspNet.Razor.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Razor.0.1-alpha-build-0197/Microsoft.AspNet.Razor.0.1-alpha-build-0197.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Razor.0.1-alpha-build-0197/Microsoft.AspNet.Razor.0.1-alpha-build-0197.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Razor.0.1-alpha-build-0197/Microsoft.AspNet.Razor.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.RequestContainer.0.1-alpha-build-0572/lib/K10/Microsoft.AspNet.RequestContainer.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.RequestContainer.0.1-alpha-build-0572/lib/net45/Microsoft.AspNet.RequestContainer.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.RequestContainer.0.1-alpha-build-0572/Microsoft.AspNet.RequestContainer.0.1-alpha-build-0572.nupkg">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.RequestContainer.0.1-alpha-build-0572/Microsoft.AspNet.RequestContainer.0.1-alpha-build-0572.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.RequestContainer.0.1-alpha-build-0572/Microsoft.AspNet.RequestContainer.nuspec">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Routing.0.1-alpha-build-0577/lib/K10/Microsoft.AspNet.Routing.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Routing.0.1-alpha-build-0577/lib/net45/Microsoft.AspNet.Routing.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Routing.0.1-alpha-build-0577/Microsoft.AspNet.Routing.0.1-alpha-build-0577.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Routing.0.1-alpha-build-0577/Microsoft.AspNet.Routing.0.1-alpha-build-0577.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Routing.0.1-alpha-build-0577/Microsoft.AspNet.Routing.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Security.0.1-alpha-build-0506/lib/K10/Microsoft.AspNet.Security.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Security.0.1-alpha-build-0506/lib/net45/Microsoft.AspNet.Security.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Security.0.1-alpha-build-0506/Microsoft.AspNet.Security.0.1-alpha-build-0506.nupkg">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Security.0.1-alpha-build-0506/Microsoft.AspNet.Security.0.1-alpha-build-0506.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Security.0.1-alpha-build-0506/Microsoft.AspNet.Security.nuspec">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Security.DataProtection.0.1-alpha-build-0153/lib/K10/Microsoft.AspNet.Security.DataProtection.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Security.DataProtection.0.1-alpha-build-0153/lib/net45/Microsoft.AspNet.Security.DataProtection.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Security.DataProtection.0.1-alpha-build-0153/Microsoft.AspNet.Security.DataProtection.0.1-alpha-build-0153.nupkg">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Security.DataProtection.0.1-alpha-build-0153/Microsoft.AspNet.Security.DataProtection.0.1-alpha-build-0153.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Security.DataProtection.0.1-alpha-build-0153/Microsoft.AspNet.Security.DataProtection.nuspec">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Server.WebListener.0.1-alpha-build-0520/lib/K10/Microsoft.AspNet.Server.WebListener.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Server.WebListener.0.1-alpha-build-0520/lib/net45/Microsoft.AspNet.Server.WebListener.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Server.WebListener.0.1-alpha-build-0520/Microsoft.AspNet.Server.WebListener.0.1-alpha-build-0520.nupkg">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Server.WebListener.0.1-alpha-build-0520/Microsoft.AspNet.Server.WebListener.0.1-alpha-build-0520.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.Server.WebListener.0.1-alpha-build-0520/Microsoft.AspNet.Server.WebListener.nuspec">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.StaticFiles.0.1-alpha-build-0443/lib/K10/Microsoft.AspNet.StaticFiles.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.StaticFiles.0.1-alpha-build-0443/lib/net45/Microsoft.AspNet.StaticFiles.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.StaticFiles.0.1-alpha-build-0443/Microsoft.AspNet.StaticFiles.0.1-alpha-build-0443.nupkg">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.StaticFiles.0.1-alpha-build-0443/Microsoft.AspNet.StaticFiles.0.1-alpha-build-0443.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.AspNet.StaticFiles.0.1-alpha-build-0443/Microsoft.AspNet.StaticFiles.nuspec">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Bcl.Immutable.1.1.20-beta/lib/portable-net45+win8/System.Collections.Immutable.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Bcl.Immutable.1.1.20-beta/lib/portable-net45+win8/System.Collections.Immutable.xml">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Bcl.Immutable.1.1.20-beta/License-PreRelease.rtf">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Bcl.Immutable.1.1.20-beta/Microsoft.Bcl.Immutable.1.1.20-beta.nupkg">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Bcl.Immutable.1.1.20-beta/Microsoft.Bcl.Immutable.1.1.20-beta.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Bcl.Immutable.1.1.20-beta/Microsoft.Bcl.Immutable.nuspec">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Bcl.Metadata.1.0.11-alpha/lib/portable-net45+win8/System.Reflection.Metadata.dll">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Bcl.Metadata.1.0.11-alpha/lib/portable-net45+win8/System.Reflection.Metadata.xml">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Bcl.Metadata.1.0.11-alpha/License-PreRelease.rtf">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Bcl.Metadata.1.0.11-alpha/Microsoft.Bcl.Metadata.1.0.11-alpha.nupkg">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Bcl.Metadata.1.0.11-alpha/Microsoft.Bcl.Metadata.1.0.11-alpha.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Bcl.Metadata.1.0.11-alpha/Microsoft.Bcl.Metadata.nuspec">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.CodeAnalysis.Common.0.7.4051916-beta/lib/k10/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.CodeAnalysis.Common.0.7.4051916-beta/lib/net45/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.CodeAnalysis.Common.0.7.4051916-beta/Microsoft.CodeAnalysis.Common.0.7.4051916-beta.nupkg">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.CodeAnalysis.Common.0.7.4051916-beta/Microsoft.CodeAnalysis.Common.0.7.4051916-beta.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.CodeAnalysis.Common.0.7.4051916-beta/Microsoft.CodeAnalysis.Common.nuspec">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.CodeAnalysis.CSharp.0.7.4051916-beta/lib/k10/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.CodeAnalysis.CSharp.0.7.4051916-beta/lib/net45/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.CodeAnalysis.CSharp.0.7.4051916-beta/Microsoft.CodeAnalysis.CSharp.0.7.4051916-beta.nupkg">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.CodeAnalysis.CSharp.0.7.4051916-beta/Microsoft.CodeAnalysis.CSharp.0.7.4051916-beta.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.CodeAnalysis.CSharp.0.7.4051916-beta/Microsoft.CodeAnalysis.CSharp.nuspec">
+      <publishTime>06/23/2014 16:04:16</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Data.Entity.0.1-alpha-build-0863/lib/K10/Microsoft.Data.Entity.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Data.Entity.0.1-alpha-build-0863/lib/net45/Microsoft.Data.Entity.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Data.Entity.0.1-alpha-build-0863/lib/portable-net451+win81/Microsoft.Data.Entity.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Data.Entity.0.1-alpha-build-0863/Microsoft.Data.Entity.0.1-alpha-build-0863.nupkg">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Data.Entity.0.1-alpha-build-0863/Microsoft.Data.Entity.0.1-alpha-build-0863.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Data.Entity.0.1-alpha-build-0863/Microsoft.Data.Entity.nuspec">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Data.Entity.InMemory.0.1-alpha-build-0863/lib/K10/Microsoft.Data.Entity.InMemory.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Data.Entity.InMemory.0.1-alpha-build-0863/lib/net45/Microsoft.Data.Entity.InMemory.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Data.Entity.InMemory.0.1-alpha-build-0863/lib/portable-net451+win81/Microsoft.Data.Entity.InMemory.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Data.Entity.InMemory.0.1-alpha-build-0863/Microsoft.Data.Entity.InMemory.0.1-alpha-build-0863.nupkg">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Data.Entity.InMemory.0.1-alpha-build-0863/Microsoft.Data.Entity.InMemory.0.1-alpha-build-0863.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Data.Entity.InMemory.0.1-alpha-build-0863/Microsoft.Data.Entity.InMemory.nuspec">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.0.1-alpha-build-0100/Microsoft.DataAnnotations.0.1-alpha-build-0100.nupkg">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.0.1-alpha-build-0100/Microsoft.DataAnnotations.0.1-alpha-build-0100.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.0.1-alpha-build-0100/Microsoft.DataAnnotations.nuspec">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.Core.0.1-alpha-build-0100/lib/K10/Microsoft.DataAnnotations.Core.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.Core.0.1-alpha-build-0100/lib/net45/Microsoft.DataAnnotations.Core.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.Core.0.1-alpha-build-0100/lib/portable-net45+wp80/Microsoft.DataAnnotations.Core.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.Core.0.1-alpha-build-0100/Microsoft.DataAnnotations.Core.0.1-alpha-build-0100.nupkg">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.Core.0.1-alpha-build-0100/Microsoft.DataAnnotations.Core.0.1-alpha-build-0100.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.Core.0.1-alpha-build-0100/Microsoft.DataAnnotations.Core.nuspec">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.Supplemental.0.1-alpha-build-0100/lib/K10/Microsoft.DataAnnotations.Supplemental.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.Supplemental.0.1-alpha-build-0100/lib/net45/Microsoft.DataAnnotations.Supplemental.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.Supplemental.0.1-alpha-build-0100/lib/portable-net45+wp80/Microsoft.DataAnnotations.Supplemental.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.Supplemental.0.1-alpha-build-0100/Microsoft.DataAnnotations.Supplemental.0.1-alpha-build-0100.nupkg">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.Supplemental.0.1-alpha-build-0100/Microsoft.DataAnnotations.Supplemental.0.1-alpha-build-0100.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.DataAnnotations.Supplemental.0.1-alpha-build-0100/Microsoft.DataAnnotations.Supplemental.nuspec">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.ConfigurationModel.0.1-alpha-build-0233/lib/K10/Microsoft.Framework.ConfigurationModel.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.ConfigurationModel.0.1-alpha-build-0233/lib/net45/Microsoft.Framework.ConfigurationModel.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.ConfigurationModel.0.1-alpha-build-0233/lib/portable-net451+win81+wpa81/Microsoft.Framework.ConfigurationModel.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.ConfigurationModel.0.1-alpha-build-0233/Microsoft.Framework.ConfigurationModel.0.1-alpha-build-0233.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.ConfigurationModel.0.1-alpha-build-0233/Microsoft.Framework.ConfigurationModel.0.1-alpha-build-0233.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.ConfigurationModel.0.1-alpha-build-0233/Microsoft.Framework.ConfigurationModel.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.ConfigurationModel.Json.0.1-alpha-build-0233/lib/K10/Microsoft.Framework.ConfigurationModel.Json.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.ConfigurationModel.Json.0.1-alpha-build-0233/lib/net45/Microsoft.Framework.ConfigurationModel.Json.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.ConfigurationModel.Json.0.1-alpha-build-0233/Microsoft.Framework.ConfigurationModel.Json.0.1-alpha-build-0233.nupkg">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.ConfigurationModel.Json.0.1-alpha-build-0233/Microsoft.Framework.ConfigurationModel.Json.0.1-alpha-build-0233.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.ConfigurationModel.Json.0.1-alpha-build-0233/Microsoft.Framework.ConfigurationModel.Json.nuspec">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.DependencyInjection.0.1-alpha-build-0389/lib/K10/Microsoft.Framework.DependencyInjection.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.DependencyInjection.0.1-alpha-build-0389/lib/net45/Microsoft.Framework.DependencyInjection.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.DependencyInjection.0.1-alpha-build-0389/lib/portable-net451+win81+wpa81/Microsoft.Framework.DependencyInjection.dll">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.DependencyInjection.0.1-alpha-build-0389/Microsoft.Framework.DependencyInjection.0.1-alpha-build-0389.nupkg">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.DependencyInjection.0.1-alpha-build-0389/Microsoft.Framework.DependencyInjection.0.1-alpha-build-0389.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.DependencyInjection.0.1-alpha-build-0389/Microsoft.Framework.DependencyInjection.nuspec">
+      <publishTime>06/23/2014 16:04:13</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.Logging.0.1-alpha-build-0172/lib/K10/Microsoft.Framework.Logging.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.Logging.0.1-alpha-build-0172/lib/net45/Microsoft.Framework.Logging.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.Logging.0.1-alpha-build-0172/lib/portable-net451+win81+wpa81/Microsoft.Framework.Logging.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.Logging.0.1-alpha-build-0172/Microsoft.Framework.Logging.0.1-alpha-build-0172.nupkg">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.Logging.0.1-alpha-build-0172/Microsoft.Framework.Logging.0.1-alpha-build-0172.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.Logging.0.1-alpha-build-0172/Microsoft.Framework.Logging.nuspec">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.Runtime.Interfaces.0.1-alpha-build-0446/lib/K10/Microsoft.Framework.Runtime.Interfaces.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.Runtime.Interfaces.0.1-alpha-build-0446/lib/net45/Microsoft.Framework.Runtime.Interfaces.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.Runtime.Interfaces.0.1-alpha-build-0446/Microsoft.Framework.Runtime.Interfaces.0.1-alpha-build-0446.nupkg">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.Runtime.Interfaces.0.1-alpha-build-0446/Microsoft.Framework.Runtime.Interfaces.0.1-alpha-build-0446.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Framework.Runtime.Interfaces.0.1-alpha-build-0446/Microsoft.Framework.Runtime.Interfaces.nuspec">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Net.Server.0.1-alpha-build-0520/lib/K10/Microsoft.Net.Server.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Net.Server.0.1-alpha-build-0520/lib/net45/Microsoft.Net.Server.dll">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Net.Server.0.1-alpha-build-0520/Microsoft.Net.Server.0.1-alpha-build-0520.nupkg">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Net.Server.0.1-alpha-build-0520/Microsoft.Net.Server.0.1-alpha-build-0520.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.Net.Server.0.1-alpha-build-0520/Microsoft.Net.Server.nuspec">
+      <publishTime>06/23/2014 16:04:14</publishTime>
+    </File>
+    <File Include="packages/Microsoft.VisualStudio.Web.BrowserLink.Loader.14.0-alpha/lib/k10/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.VisualStudio.Web.BrowserLink.Loader.14.0-alpha/lib/net45/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.VisualStudio.Web.BrowserLink.Loader.14.0-alpha/Microsoft.VisualStudio.Web.BrowserLink.Loader.14.0-alpha.nupkg">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.VisualStudio.Web.BrowserLink.Loader.14.0-alpha/Microsoft.VisualStudio.Web.BrowserLink.Loader.14.0-alpha.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Microsoft.VisualStudio.Web.BrowserLink.Loader.14.0-alpha/Microsoft.VisualStudio.Web.BrowserLink.Loader.nuspec">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/net20/Newtonsoft.Json.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/net20/Newtonsoft.Json.xml">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/net35/Newtonsoft.Json.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/net35/Newtonsoft.Json.xml">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/net40/Newtonsoft.Json.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/net40/Newtonsoft.Json.xml">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/net45/Newtonsoft.Json.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/net45/Newtonsoft.Json.xml">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/netcore45/Newtonsoft.Json.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/netcore45/Newtonsoft.Json.xml">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.xml">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/portable-net45+wp80+win8/Newtonsoft.Json.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/lib/portable-net45+wp80+win8/Newtonsoft.Json.xml">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/Newtonsoft.Json.5.0.8.nupkg">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/Newtonsoft.Json.5.0.8.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/Newtonsoft.Json.nuspec">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Newtonsoft.Json.5.0.8/tools/install.ps1">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Remotion.Linq.1.15.13.0/lib/portable-net45+wp80+win/Remotion.Linq.dll">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Remotion.Linq.1.15.13.0/lib/portable-net45+wp80+win/Remotion.Linq.xml">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Remotion.Linq.1.15.13.0/Remotion.Linq.1.15.13.0.nupkg">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Remotion.Linq.1.15.13.0/Remotion.Linq.1.15.13.0.nupkg.sha512">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="packages/Remotion.Linq.1.15.13.0/Remotion.Linq.nuspec">
+      <publishTime>06/23/2014 16:04:15</publishTime>
+    </File>
+    <File Include="web.cmd">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="webWithUrl.cmd">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="wwwroot/bin/AspNet.Loader.dll">
+      <publishTime>06/23/2014 16:04:12</publishTime>
+    </File>
+    <File Include="wwwroot/config.ini">
+      <publishTime>06/23/2014 15:57:46</publishTime>
+    </File>
+    <File Include="wwwroot/config.json">
+      <publishTime>06/23/2014 15:57:47</publishTime>
+    </File>
+    <File Include="wwwroot/Content/bootstrap.css">
+      <publishTime>09/13/2013 16:05:44</publishTime>
+    </File>
+    <File Include="wwwroot/Content/bootstrap.min.css">
+      <publishTime>09/13/2013 16:05:44</publishTime>
+    </File>
+    <File Include="wwwroot/Content/Site.css">
+      <publishTime>06/23/2014 15:15:28</publishTime>
+    </File>
+    <File Include="wwwroot/Controllers/HomeController.cs">
+      <publishTime>06/23/2014 15:55:01</publishTime>
+    </File>
+    <File Include="wwwroot/k.ini">
+      <publishTime>06/23/2014 16:04:17</publishTime>
+    </File>
+    <File Include="wwwroot/Models/PersonContext.cs">
+      <publishTime>06/23/2014 15:53:58</publishTime>
+    </File>
+    <File Include="wwwroot/project.json">
+      <publishTime>06/23/2014 15:47:47</publishTime>
+    </File>
+    <File Include="wwwroot/Project_Readme.html">
+      <publishTime>06/23/2014 15:15:28</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/bootstrap.js">
+      <publishTime>09/13/2013 16:05:44</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/bootstrap.min.js">
+      <publishTime>09/13/2013 16:05:44</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/jquery-1.10.2.intellisense.js">
+      <publishTime>04/30/2014 17:37:02</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/jquery-1.10.2.js">
+      <publishTime>09/13/2013 11:57:32</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/jquery-1.10.2.min.js">
+      <publishTime>09/13/2013 11:57:32</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/jquery-1.10.2.min.map">
+      <publishTime>09/13/2013 11:57:32</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/jquery.validate-vsdoc.js">
+      <publishTime>09/13/2013 12:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/jquery.validate.js">
+      <publishTime>09/13/2013 12:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/jquery.validate.min.js">
+      <publishTime>09/13/2013 12:00:00</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>02/19/2014 09:50:00</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>02/19/2014 09:50:00</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/modernizr-2.6.2.js">
+      <publishTime>09/13/2013 11:07:28</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/respond.js">
+      <publishTime>09/13/2013 11:54:50</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/respond.min.js">
+      <publishTime>09/13/2013 11:54:50</publishTime>
+    </File>
+    <File Include="wwwroot/Scripts/_references.js">
+      <publishTime>06/23/2014 15:15:28</publishTime>
+    </File>
+    <File Include="wwwroot/Startup.cs">
+      <publishTime>06/23/2014 15:59:19</publishTime>
+    </File>
+    <File Include="wwwroot/Views/Home/About.cshtml">
+      <publishTime>06/23/2014 15:15:28</publishTime>
+    </File>
+    <File Include="wwwroot/Views/Home/Contact.cshtml">
+      <publishTime>06/23/2014 15:15:28</publishTime>
+    </File>
+    <File Include="wwwroot/Views/Home/Index.cshtml">
+      <publishTime>06/23/2014 15:15:28</publishTime>
+    </File>
+    <File Include="wwwroot/Views/Shared/Error.cshtml">
+      <publishTime>06/23/2014 15:15:28</publishTime>
+    </File>
+    <File Include="wwwroot/Views/Shared/_Layout.cshtml">
+      <publishTime>06/23/2014 15:43:37</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
