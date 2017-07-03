@@ -1,0 +1,7 @@
+FROM microsoft/aspnetcore:1.1.2
+
+WORKDIR /app
+ENV ASPNETCORE_URLS http://*:80
+EXPOSE 80
+ENTRYPOINT ["dotnet", "ToDoAPI.dll"]
+COPY . /app
